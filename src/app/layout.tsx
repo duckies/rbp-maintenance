@@ -13,6 +13,9 @@ export default function RootLayout(props: RootLayoutProps) {
   return (
     <html lang="en">
       <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="/favicon.png" rel="shortcut icon" />
         <title>Really Bad Players</title>
       </head>
       <body className={`${sans.className} ${mono.variable}`}>
