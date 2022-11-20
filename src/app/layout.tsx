@@ -3,7 +3,7 @@ import { DM_Mono } from '@next/font/google';
 import localFont from '@next/font/local';
 
 const sans = localFont({ src: [{ path: './fonts/wotfard/wotfard-medium-webfont.woff2', weight: '500' }] });
-const mono = DM_Mono({ weight: '400', variable: '--font-mono' });
+const mono = DM_Mono({ weight: '400', variable: '--font-mono', subsets: ['latin'] });
 
 type RootLayoutProps = {
   children: React.ReactNode;
